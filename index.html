@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/modern-normalize.css">
+  <link rel="stylesheet" href="styles/utils.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>My Music Player</title>
+</head>
+<body>
+  <div id="background">
+    <img id="backgroundImg" src="images/background-1.jpg" alt="Skull album image">
+  </div>
+
+  <div id="configure" title="configure">
+    <img src="icons/support.svg" alt="configure">
+  </div>
+
+  <section id="main">
+    <div id="seekScreen"></div>
+    <div id="seekLine"></div>
+    <div id="songInfo">
+      <div id="artist">Kelvin Momo & Sjava</div>
+      <div id="songTitle">Uku Khanya</div>
+    </div>
+    <div id="trackNav">
+      <div id="back">
+        <img src="icons/back.svg" alt="previous button">
+      </div>
+
+      <div id="play">
+        <img src="icons/play.svg" alt="play button">
+      </div>
+      <div id="pause">
+        <img src="icons/pause.svg" alt="pause button">
+      </div>
+      <div id="forward">
+        <img src="icons/forward.svg" alt="Next button">
+      </div>
+    </div>
+  </section>
+
+
+  <audio src="audio/aud-1.mp3" id="audio1"></audio>
+  <audio src="audio/aud-2.mp3" id="audio2"></audio>
+  <audio src="audio/aud-3.mp3" id="audio3"></audio>
+  <audio src="audio/aud-4.mp3" id="audio4"></audio>
+  <audio src="audio/aud-5.mp3" id="audio5"></audio>
+
+  <script src="main.js"></script>
+  <script src="audio.js"></script>
+</body>
+</html>
